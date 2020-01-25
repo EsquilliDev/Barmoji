@@ -28,7 +28,7 @@
 
 @end
 
-#define kIsDemo NO
+#define kIsDemo YES
 
 #define buttonCellWithName(name) [PSSpecifier preferenceSpecifierNamed:name target:self set:NULL get:NULL detail:NULL cell:PSButtonCell edit:Nil]
 #define groupSpecifier(name) [PSSpecifier groupSpecifierWithName:name]
